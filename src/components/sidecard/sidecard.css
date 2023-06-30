@@ -1,0 +1,38 @@
+:root{
+  --section-overlay: rgb(255,255,255,0.4);
+}
+.mainside{
+  height: 40vh;
+  width: 40%;
+  display: flex;
+}
+
+.column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+  gap: 10%;
+  justify-content: center;
+  background-color: var(--section-overlay);
+}
+
+.card{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .mainside{
+      height: 50vh;
+    }
+
+   .column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+}

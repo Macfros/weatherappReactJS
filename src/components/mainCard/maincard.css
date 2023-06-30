@@ -1,0 +1,40 @@
+*{
+  font-family: verdana, serif;
+  }
+.maincard{
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    height: 20rem;
+    width: 20%;
+    margin: 10vh 0;
+    font-family: verdana, sans-serif;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+}
+
+.location{
+  margin-bottom: 10%;
+  font-size: 2rem;
+}
+
+.iconWeather{
+   margin-bottom: 10%;
+}
+
+.temperature{
+  font-size: 1.4rem;
+}
+
+.desc{
+  font-style: italic;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    .location{
+      font-size: 1.5rem;
+    }
+}
